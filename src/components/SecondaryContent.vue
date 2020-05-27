@@ -1,5 +1,5 @@
 <template>
-    <div class="secondary-content container flex flex-row justify-center items-center py-8">
+    <div class="secondary-content container flex sm:flex-col md:flex-col lg:flex-row justify-center items-center py-8">
         <div class="feature flex flex-col mr-24 justify-center items-center" v-for="feature in features" :key="index">
             <img src="../assets/zen-guard.svg" alt="logo" width="203px" height="100%">
             <span>{{feature.text}}</span>

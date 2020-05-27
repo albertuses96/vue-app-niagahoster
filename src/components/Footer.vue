@@ -1,5 +1,5 @@
 <template>
-    <div class="footer py-8 px-8 bg-gray-800 container flex flex-col text-white">
+    <div class="footer py-8 px-8 bg-gray-900 container flex flex-col text-white">
         <div class="footer-nav lg:grid sm:flex lg:grid-cols-4 sm:flex-col gap-8">
             <div class="col">
                 <div class="title-footer-nav mb-4">
@@ -116,8 +116,8 @@
                 Aktivasi instan dengan e-Payment Hosting dan domain langsung aktif!
             </div>
         </div>
-        <div class="copyright mt-4 flex flex-row">
-            <div class="copyright mr-16 flex-1">
+        <div class="copyright mt-4 flex flex-col  lg:flex-row">
+            <div class="copyright mr-4 lg:mr-16 flex-1 mb-4">
                 Copyright 	&copy; 2016 Niagahoster | Hosting powered by PHP7, CloudLinux, BitNinja and DC Biznet Technovillage Jakarta <br />
                 Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology
             </div>

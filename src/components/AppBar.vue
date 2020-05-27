@@ -1,12 +1,12 @@
 <template>
     <div class="app-bar">
-        <div class="app-bar-info flex flex-row justify-between">
-            <div class="app-bar-info-promo flex flex-row ">
-                <div class="price-tag-logo bg-blue-400">Logo</div>
+        <div class="app-bar-info flex flex-col lg:flex-row justify-between items-center ">
+            <div class="app-bar-info-promo flex flex-row mb-4 lg:mb-0">
+                <div class="price-tag-logo bg-blue-400 mr-4">Logo</div>
                 <span>Gratis Ebook 9 Cara Cerdas Menggunakan Domain</span>
                 <div>X</div>
             </div>
-            <div class="contact flex flex-row">
+            <div class="contact flex flex-row flex-2">
                 <div class="flex flex-row mr-2 justify-between">
                     <div class="logo mr-2">
                         Logo
@@ -33,13 +33,13 @@
                 </div>
             </div>
         </div>
-        <div class="main-app-bar  flex flex-row items-center justify-between ">
+        <div class="main-app-bar flex flex-row items-center justify-between ">
             <div class="main-logo">
                 <img src="../assets/niagahoster-logo.png" alt="Logo" width="200px">
             </div>
 
             <div class="main-nav-app-bar">
-                <ul class="flex flex-row">
+                <ul class="flex flex-col md:flex-row lg:flex-row mt-4">
                    <li class="m-2" v-for="nav in navigationLink" :key="index">
                        <router-link :to="nav.path">{{nav.label}}</router-link>
                    </li>

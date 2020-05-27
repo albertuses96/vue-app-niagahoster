@@ -3,7 +3,7 @@
         <div class="title text-2xl font-thin mb-4">
             Mendukung Penuh Framework Laravel
         </div>
-        <div class="w-full main-content px-8 py-4 flex flex-row">
+        <div class="w-full main-content px-8 py-4 flex flex-col-reverse md:flex-row lg:flex-row">
             <div class="content flex flex-col mr-8">
                 <div class="notes mb-4">
                     Tak perlu menggunakan dedicated server ataupun VPS yang mahal. <br />
@@ -34,7 +34,7 @@
                 <div class="notes mb-4">Nb: Composer dan SSH hanya tersedia pada paket Personal dan Bisnis </div>
                 <button class="btn-cta rounded-full bg-blue-500 py-2 px-2 font-bold text-white">Pilih Hosting Anda</button>
             </div>
-            <div class="logo">
+            <div class="logo mb-4 ">
                 Logo
             </div>
 

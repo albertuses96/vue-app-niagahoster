@@ -13,8 +13,7 @@
                 <tr>
                     <th class="border border-gray-200 text-2xl">Bayi</th>
                     <th class="border border-gray-200 text-2xl">Pelajar</th>
-                    <th class="border border-gray-200 text-2xl">Bayi</th>
-                    <th class="border border-gray-200 text-2xl">Pelajar</th>
+
                 </tr>
             </thead>
             <tbody>
@@ -27,14 +26,7 @@
                      <strike>Rp. 46.900</strike>
                      <p>Rp.14.900</p>
                     </td>
-                       <td class="border border-gray-200">
-                     <strike>Rp. 46.900</strike>
-                     <p>Rp.14.900</p>
-                    </td>
-                       <td class="border border-gray-200">
-                     <strike>Rp. 46.900</strike>
-                     <p>Rp.14.900</p>
-                    </td>
+
                 </tr>
                 <tr class="border border-gray-200">
                     <td class="border border-gray-200">
@@ -45,14 +37,7 @@
                        <strong class="mr-2">938</strong>
                        <span>Pengguna Terdaftar</span>
                     </td>
-                      <td class="border border-gray-200">
-                       <strong class="mr-2">938</strong>
-                       <span>Pengguna Terdaftar</span>
-                    </td>
-                      <td class="border border-gray-200">
-                       <strong class="mr-2">938</strong>
-                       <span>Pengguna Terdaftar</span>
-                    </td>
+      
                 </tr>
                 <tr class="border border-gray-200 ">
                    <td class="border border-ray-200 py-4">
@@ -83,34 +68,7 @@
                         </div>
 
                    </td>
-                       <td class="border border-ray-200 py-4">
-                        <div class="flex flex-col justify-center items-center">
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>                        
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <button class="btn btn-cta rounded-full bg-transparent border border-black mt-4">Pilih Sekarang</button>
-                        </div>
-
-                   </td>
-                      <td class="border border-ray-200 py-4">
-                        <div class="flex flex-col justify-center items-center">
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <span class="mb-2">0.5 Resource Power</span>                        
-                            <span class="mb-2">0.5 Resource Power</span>
-                            <button class="btn btn-cta rounded-full bg-transparent border border-black mt-4">Pilih Sekarang</button>
-                        </div>
-
-                   </td>
+      
 
                 </tr>
                 

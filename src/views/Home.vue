@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="app flex flex-col w-full">
     <AppBar />
     <MainContent />
     <SecondaryContent />
@@ -106,11 +106,7 @@ export default {
 </script>
 
 <style lang="css">
-  .home {
+  .app {
     width: 100%;
-    padding: 0px 10% 9px 10%;
-    display: grid;
-    justifyContent: center;
   }
-  
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="benefit-content container py=8 flex flex-col justify-center items-center">
+    <div class="benefit-content container py=8 flex flex-col justify-center items-center px-8">
         <div class="title text-2xl font:thin">
             Semua Paket Hosting Sudah Termasuk
         </div>
