@@ -13,7 +13,6 @@
                 <tr>
                     <th class="border border-gray-200 text-2xl">Bayi</th>
                     <th class="border border-gray-200 text-2xl">Pelajar</th>
-
                 </tr>
             </thead>
             <tbody>
@@ -26,7 +25,6 @@
                      <strike>Rp. 46.900</strike>
                      <p>Rp.14.900</p>
                     </td>
-
                 </tr>
                 <tr class="border border-gray-200">
                     <td class="border border-gray-200">
