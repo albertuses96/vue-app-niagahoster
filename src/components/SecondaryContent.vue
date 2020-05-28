@@ -1,7 +1,10 @@
 <template>
-    <div class="secondary-content container flex sm:flex-col md:flex-col lg:flex-row justify-center items-center py-8">
-        <div class="feature flex flex-col mr-24 justify-center items-center" v-for="feature in features" :key="index">
-            <img src="../assets/zen-guard.svg" alt="logo" width="203px" height="100%">
+    <div class="secondary-content  flex flex-col md:flex-col lg:flex-row justify-center items-center py-8">
+        <div class="feature flex w-full lg:w-64 flex-col  justify-center items-center" v-for="feature in features" :key="index">
+            <div class="h-64 flex justify-center  items-center" >
+            <img :src="feature.logo" alt="logo"  width="150px" >
+
+            </div>
             <span>{{feature.text}}</span>
 
         </div>
@@ -9,21 +12,27 @@
 </template>
 
 <script>
+
+import ComposerIcon from '@/assets/composer.png'
+import ZenGuardIcon from '@/assets/ZenGuard.png'
+import IonCubeIcon from '@/assets/ioncube.png'
+
+
 export default {
     name: 'SecondartContent',
     data() {
         return {
             features: [
                 {
-                    logo: "../assets/zen-guard.svg",
+                    logo: ZenGuardIcon,
                     text: 'PHP Zen Guard Loader',
                 },
                 {
-                    logo: "../assets/composer.svg",
+                    logo: ComposerIcon,
                     text: "PHP Composer"
                 },
                 {
-                    logo: "../assets/ioncube.svg",
+                    logo: IonCubeIcon,
                     text: 'PHP IonCube Loader'
                 }
             ]

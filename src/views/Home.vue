@@ -34,6 +34,7 @@ import BannerCTA from '@/components/BannerCTA.vue'
 import SocialMediaBanner from '@/components/SocialMediaBanner.vue'
 import TechnicalSupportBanner from '@/components/TechnicalSupportBanner.vue'
 import Footer from '@/components/Footer.vue'
+import {mapActions} from 'vuex'
 
 
 export default {
@@ -54,6 +55,9 @@ export default {
     SocialMediaBanner,
     TechnicalSupportBanner,
     Footer
+  },
+  computed: {
+    
   },
   data() {
     return {
@@ -76,31 +80,16 @@ export default {
       ]
     }
   },
-  mounted() {
-  this.getEmployees()
+  async mounted() {
+    this.$store.dispatch('getData')
 },
 
   methods: {
-    addEmployee(employee) {
-      const lastId =
-        this.employees.length > 0
-          ? this.employees[this.employees.length - 1].id
-          : 0;
-      const id = lastId + 1;
-      const newEmployee = { ...employee, id };
-
-      this.employees = [...this.employees, newEmployee];
-
-    },
-      async getEmployees() {
-  try {
-  } catch (error) {
-    console.error(error)
+    ...mapActions([
+      'getData'
+    ])
   }
-   
-  },
 
-},
 
 }
 </script>

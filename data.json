@@ -1,0 +1,72 @@
+{
+    "package-name": "Bayi",
+    "real-price": 19000,
+    "discount-price": 14900,
+    "UA": 938,
+    "feature": {
+        "Resource Power": 0.5,
+        "Disk Space": 50,
+        "Bnadwidth": "Unlimited",
+        "Databases": "Unlimited",
+        "Domain": 1,
+        "Backup": "Instant",
+        "Unlimited SSL": "Gratis Selamanya"
+    }
+}
+{
+    "package-name": "Pelajar",
+    "real-price": 46900,
+    "discount-price": 23450,
+    "UA": 168,
+    "feature": {
+        "Resource Power": 1,
+        "Disk Space": "Unlimited",
+        "Bnadwidth": "Unlimited",
+        "POP3 Email": "Unlimited",
+        "Databases": "Unlimited",
+        "Addon Domain": 10,
+        "Backup": "Instant",
+        "Domain": "Gratis Selamanya",
+        "Unlimited SSL": "Gratis Selamanya"
+    }
+}
+{
+    "package-name": "Personal",
+    "real-price": 58900,
+    "discount-price": 38900,
+    "UA": 10017,
+    "feature": {
+        "Resource Power": 2,
+        "Disk Space": "Unlimited",
+        "Bnadwidth": "Unlimited",
+        "POP3 Email": "Unlimited",
+        "Databases": "Unlimited",
+        "Addon Domain": "Unlimited",
+        "Backup": "Instant",
+        "Domain": "Gratis Selamanya",
+        "Unlimited SSL": "Gratis Selamanya",
+        "Name Server": "Private",
+        "Mail Protection": "SpamAssasin"
+    }
+}
+{
+    "package-name": "Bisnis",
+    "real-price": 109900,
+    "discount-price": 65900,
+    "UA": 3552,
+    "feature": {
+        "Resource Power": 3,
+        "Disk Space": "Unlimited",
+        "Bnadwidth": "Unlimited",
+        "POP3 Email": "Unlimited",
+        "Databases": "Unlimited",
+        "Addon Domain": "Unlimited",
+        "Backup & Restore": "Magic Auto",
+        "Domain": "Gratis Selamanya",
+        "Unlimited SSL": "Gratis Selamanya",
+        "Name Server": "Private",
+        "Layanan Super": "Prioritas",
+        "Mail Protection": "SpamAssasin"
+    }
+}
+

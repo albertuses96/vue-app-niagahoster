@@ -4,7 +4,7 @@
             Mendukung Penuh Framework Laravel
         </div>
         <div class="w-full main-content px-8 py-4 flex flex-col-reverse md:flex-row lg:flex-row">
-            <div class="content flex flex-col mr-8">
+            <div class="content w-full flex flex-col mr-8">
                 <div class="notes mb-4">
                     Tak perlu menggunakan dedicated server ataupun VPS yang mahal. <br />
                     Layanan  PHP yang murah kami menudkung penuh framework favorit Anda.
@@ -34,8 +34,8 @@
                 <div class="notes mb-4">Nb: Composer dan SSH hanya tersedia pada paket Personal dan Bisnis </div>
                 <button class="btn-cta rounded-full bg-blue-500 py-2 px-2 font-bold text-white">Pilih Hosting Anda</button>
             </div>
-            <div class="logo mb-4 ">
-                Logo
+            <div class="logo mb-4 w-full flex justify-center ">
+                <img src="../assets/laravel.svg" alt="Logo" width="300px">
             </div>
 
         </div>

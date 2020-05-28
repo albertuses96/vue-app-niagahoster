@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1644"
+   version="1.1"
+   viewBox="0 0 64 64">
+  <metadata
+     id="metadata1648">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon PHP Hosting</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1613">
+    <style
+       id="style1611">.cls-1{fill:#fff;}.cls-2{fill:#298eea;}.cls-3{fill:none;stroke:#298eea;stroke-miterlimit:10;}.cls-4{fill:#d4e8fb;}</style>
+  </defs>
+  <title
+     id="title1615">icon PHP Hosting</title>
+  <g
+     id="cpanel">
+    <rect
+       id="rect1617"
+       ry="0.377"
+       rx="0.377"
+       height="40.459"
+       width="54"
+       y="11.771"
+       x="5"
+       class="cls-1" />
+    <path
+       id="path1619"
+       d="M58,12.77V51.23H6V12.77H58m.623-2H5.377A1.381,1.381,0,0,0,4,12.148v39.7A1.381,1.381,0,0,0,5.377,53.23H58.623A1.381,1.381,0,0,0,60,51.852v-39.7a1.381,1.381,0,0,0-1.377-1.377Z"
+       class="cls-2" />
+    <line
+       id="line1621"
+       y2="20.5"
+       x2="59"
+       y1="20.5"
+       x1="5"
+       class="cls-3" />
+    <line
+       id="line1623"
+       y2="53"
+       x2="17.5"
+       y1="21"
+       x1="17.5"
+       class="cls-3" />
+    <rect
+       id="rect1625"
+       height="1.377"
+       width="6.885"
+       y="23.91"
+       x="7.996"
+       class="cls-4" />
+    <rect
+       id="rect1627"
+       height="1.377"
+       width="6.885"
+       y="27.69"
+       x="7.996"
+       class="cls-4" />
+    <rect
+       id="rect1629"
+       height="1.377"
+       width="6.885"
+       y="31.469"
+       x="7.996"
+       class="cls-4" />
+    <rect
+       id="rect1631"
+       height="1.377"
+       width="6.885"
+       y="35.249"
+       x="7.996"
+       class="cls-4" />
+    <rect
+       id="rect1633"
+       height="1.377"
+       width="6.885"
+       y="39.029"
+       x="7.996"
+       class="cls-4" />
+    <rect
+       id="rect1635"
+       height="1.377"
+       width="6.885"
+       y="42.808"
+       x="7.996"
+       class="cls-4" />
+    <rect
+       id="rect1637"
+       height="1.377"
+       width="6.885"
+       y="46.588"
+       x="7.996"
+       class="cls-4" />
+    <path
+       id="path1639"
+       d="M36.228,31.808l-.739,2.526-.053.182a1.288,1.288,0,0,1-1.145.835H32.1a1.992,1.992,0,0,0,0,3.984h1.371a.589.589,0,0,1,.487.58.6.6,0,0,1-.018.147l-.747,2.816h-1.1a5.535,5.535,0,0,1,0-11.071Z"
+       class="cls-4" />
+    <path
+       id="path1641"
+       d="M48.225,33.759A5.532,5.532,0,0,1,42.7,39.295H39.211l.739-2.526L40,36.586a1.288,1.288,0,0,1,1.145-.835H42.69a1.992,1.992,0,0,0,0-3.984H40.551L37.874,41.9l-.041.155a1.232,1.232,0,0,1-.954.82,1.179,1.179,0,0,1-.213.019H33.985l3.487-13.6.05-.193a1.3,1.3,0,0,1,1.229-.878H42.7A5.532,5.532,0,0,1,48.225,33.759Z"
+       class="cls-4" />
+  </g>
+</svg>
