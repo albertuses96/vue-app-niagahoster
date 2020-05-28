@@ -6,6 +6,9 @@ import store from './store'
 
 import './assets/styles/style.css'
 
+import feather from 'vue-icon'
+
+Vue.use(feather, 'v-icon')
 
 Vue.config.productionTip = false
 

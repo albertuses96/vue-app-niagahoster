@@ -4,30 +4,27 @@
             Module Lengkap untuk menjalankan Aplikasi PHP Anda
         </div>
 
-        <div class="package-list w-full px-12 lg:px-16 mb-8 sm:flex sm:flex-col lg:grid justify-center items-center lg:grid-cols-4">
+        <div class="package-list w-full lg:px-16 mb-8 grid sm:grid-cols-2 md:grid-cols-4  lg:grid-cols-4">
             <div class="col flex flex-col mr-4 mt-2">
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
+                <span v-for="item in packageList.slice(0, (packageList.length/4)+1)">
+                    {{item}}
+                </span>
+            
             </div>
               <div class="col flex flex-col mr-4 mt-2 ">
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
+                <span v-for="item in packageList.slice((packageList.length/4)+2, (packageList.length/4*2)+1)">
+                    {{item}}
+                </span>
             </div>
              <div class="col flex flex-col mr-4 mt-2 ">
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
+                 <span v-for="item in packageList.slice((packageList.length/4*2)+2, (packageList.length/4*3)+2)">
+                    {{item}}
+                </span>
             </div>
             <div class="col flex flex-col mr-4 mt-2">
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
-                <span>IonPHP</span>
+                   <span v-for="item in packageList.slice((packageList.length/4*3)+2, (packageList.length)+1)">
+                    {{item}}
+                </span>
             </div>
         </div>
 
@@ -82,9 +79,32 @@ export default {
                 'opcache',
                 'pdf',
                 'pdo',
-                'pdo_dblib'
-                            ]
+                'pdo_dblib',
+                'pdo_firebird',
+                'pdo_mysql',
+                'pdo_odbc',
+                'pdo_mysql',
+                'pdo_sqlite',
+                'pgsql',
+                'phalcon',
+                'stats',
+                'stem',
+                'stomp',
+                'suhosin',
+                'sybase_ct',
+                'sysvmsg',
+                'sysvsem',
+                'tidy',
+                'timezondb',
+                'trader',
+                'uploadprogress',
+                'url_template',
+                'uuid'
+            ]
         }
-    }
+    },
+    mounted() {
+        console.log(this.packageList.length/4*2)
+    },
 }
 </script>

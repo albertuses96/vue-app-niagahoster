@@ -5,7 +5,7 @@
     "UA": 938,
     "feature": {
         "Resource Power": 0.5,
-        "Disk Space": 50,
+        "Disk Space": 500,
         "Bnadwidth": "Unlimited",
         "Databases": "Unlimited",
         "Domain": 1,

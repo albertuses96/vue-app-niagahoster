@@ -1,7 +1,7 @@
 <template>
     <div class="banner-cta relative w-full flex flex-col lg:flex-row-reverse py-8 px-8 items-center">
         <div class="w-full h-full flex-2 mb-4">
-            <img class="absolute bottom-0 right-0" src="../assets/support.png" alt="logo" width="300px"> 
+            <img class="absolute bottom-0 right-0  md:w-72 lg:w-128" src="../assets/support.png" alt="logo" > 
         </div>
         <div class="content w-full mr-8 mb-4 z-20">
             <div class="title text-2xl font-thin mb-8">

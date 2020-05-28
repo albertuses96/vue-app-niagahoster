@@ -11,24 +11,13 @@
 
                 </div>
                 <div class="feature-list flex flex-col mb-4">
-                    <div class="flex flex-row mb-2">
-                        <div class="check-logo mr-4 bg-green-300">
-                            Check
+                    <div v-for="item in featureList" class="flex flex-row mb-2">
+                        <div class="check-logo mr-4 flex w-8 justify-center items-center">
+                            <img src="../assets/correct.svg" alt="logo" width="20px">
                         </div>
-                        <div class="feature"><span>Install Laravel <strong>1 Klik</strong> dengan Softaculous Installer</span></div>
+                        <div class="feature w-full">{{item}}</span></div>
                     </div>
-                     <div class="flex flex-row mb-2">
-                        <div class="check-logo mr-4 bg-green-300">
-                            Check
-                        </div>
-                        <div class="feature"><span>Install Laravel <strong>1 Klik</strong> dengan Softaculous Installer</span></div>
-                    </div>
-                       <div class="flex flex-row mb-2">
-                        <div class="check-logo mr-4 bg-green-300">
-                            Check
-                        </div>
-                        <div class="feature"><span>Install Laravel <strong>1 Klik</strong> dengan Softaculous Installer</span></div>
-                    </div>
+                   
                 
                 </div>
                 <div class="notes mb-4">Nb: Composer dan SSH hanya tersedia pada paket Personal dan Bisnis </div>

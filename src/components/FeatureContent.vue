@@ -1,63 +1,41 @@
 <template>
     <div class="feature-content container flex flex-col justify-center items-center py-4 px-4">
         <div class="main-title font-thin text-2xl">Powerful dengan Limit PHP yang Lebih Besar</div>
-        <div class="main-feature-content flex flex-col md:flex-row lg:flex-row py-4">
-           <div class="content mb-2 md:mr-4 lg:mr-4 ">
-                  <div class="flex flex-row justify-between w-full border border-gray-200 py-4 px-4">
-                    <div class="check-logo bg-green-200 mr-4">
-                        Check
+        <div class="main-feature-content flex flex-col md:flex-row lg:flex-row py-4 w-full px-0 lg:px-64">
+            <div class="content mb-2 md:mr-4 w-full lg:mr-4 ">
+                <div v-for="(item, index) in data.slice(0,3)" :key="index">
+                    <div class="flex flex-row  w-full border border-gray-200 py-4 px-4" :class="[
+                           
+                              index === 1 ? 'bg-gray-200' : 'bg-white'   
+                            ]">
+                        <div class="check-logo mr-8">
+    
+                            <img src="../assets/correct.svg" alt="logo" width="20px">
+                        </div>
+                        <div class="content">
+                            {{item}}
+                        </div>
                     </div>
-                    <div class="content">
-                        max exexcution time 300s
-                    </div>
-                    
-                </div>
-                    <div class="flex flex-row justify-between w-full border border-gray-200 py-4 px-4">
-                    <div class="check-logo bg-green-200 mr-4">
-                        Check
-                    </div>
-                    <div class="content">
-                        max exexcution time 300s
-                    </div>
-                    
-                </div>
-                 <div class="flex flex-row justify-between w-full border border-gray-200 py-4 px-4">
-                    <div class="check-logo bg-green-200 mr-4">
-                        Check
-                    </div>
-                    <div class="content">
-                        max exexcution time 300s
-                    </div>
-                    
+    
+    
                 </div>
             </div>
-            <div class="content mb-2 ">
-                  <div class="flex flex-row justify-between w-full border border-gray-200 py-4 px-4">
-                    <div class="check-logo bg-green-200 mr-4">
-                        Check
+            <div class="content mb-2 md:mr-4 lg:mr-4 w-full ">
+                <div v-for="(item, index) in data.slice(3, data.length)" :key="index" class="w-full">
+                    <div class="flex flex-row  w-full border border-gray-200 py-4 px-4" :class="[
+                           
+                              index === 1 ? 'bg-gray-200' : 'bg-white'   
+                            ]">
+                        <div class="check-logo mr-8">
+    
+                            <img src="../assets/correct.svg" alt="logo" width="20px">
+                        </div>
+                        <div class="content">
+                            {{item}}
+                        </div>
                     </div>
-                    <div class="content">
-                        max exexcution time 300s
-                    </div>
-                    
-                </div>
-                    <div class="flex flex-row justify-between w-full border border-gray-200 py-4 px-4">
-                    <div class="check-logo bg-green-200 mr-4">
-                        Check
-                    </div>
-                    <div class="content">
-                        max exexcution time 300s
-                    </div>
-                    
-                </div>
-                 <div class="flex flex-row justify-between w-full border border-gray-200 py-4 px-4">
-                    <div class="check-logo bg-green-200 mr-4">
-                        Check
-                    </div>
-                    <div class="content">
-                        max exexcution time 300s
-                    </div>
-                    
+    
+    
                 </div>
             </div>
         </div>
@@ -66,6 +44,31 @@
 
 <script>
 export default {
-    name: 'FeatureContent'
+    name: 'FeatureContent',
+    data() {
+        return {
+            data: [
+                'max execution time 300s',
+                'max execution time 300s',
+                'php memory limit 1024 Mb',
+                'post max size 128 mb',
+                'upload max filesize 128 mb',
+                'max input vars 1500'
+            ],
+            gray: false
+        }
+    },
+    method: {
+        isContentGrey(index) {
+            if (index === 1) {
+                this.gray = true
+                return true
+
+            } else {
+                return false
+
+            }
+        }
+    }
 }
 </script>
