@@ -1,5 +1,5 @@
 <template>
-    <div class="package-list-content container flex flex-col justify-center items-center py-4 px-8 lg:px-8">
+    <div class="package-list-content flex flex-col justify-center items-center py-4 px-8 lg:px-8">
         <div class="title mb-8 text-xl">
             Module Lengkap untuk menjalankan Aplikasi PHP Anda
         </div>
@@ -29,7 +29,9 @@
         </div>
 
         <div class="w-full flex justify-center">
-        <button class="btn-cta bg-transparent border border-black rounded-full">Selengkapnya</button>
+        <button class="btn-cta bg-transparent border border-black rounded-full" :class="[
+            theme === 'light' ? '' : 'border border-white',
+        ]">Selengkapnya</button>
 
         </div>
 
@@ -37,8 +39,13 @@
 </template>
 
 <script>
+import {mapState} from 'vuex'
+
 export default {
     name: 'PackageListContent',
+    computed: mapState({
+        theme: state => state.theme
+    }),
     data() {
         return {
             packageList: [

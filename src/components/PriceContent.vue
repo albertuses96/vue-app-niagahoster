@@ -1,5 +1,5 @@
 <template>
-    <div class="price-content container flex flex-col py-4 text-center justify-center items-center">
+    <div class="price-content flex flex-col py-4 text-center justify-center items-center">
         <div class="title-content flex flex-col mb-8">
             <h1 class="text-2xl font-bold">
                 Paket Hosting Singapura yang Tepat
@@ -11,7 +11,7 @@
         <div class="relative flex flex-col md:flex-row lg:flex-row">
             <div  v-for="item in data" :index="key" class="flex h-full py-0  ">
                 <div  v-if="item['package-name'] === 'Personal'" class="relative overflow-hidden border border-blue-400">
-                    <div class="corner-ribbon top-left sticky red shadow bg-green-500">
+                    <div class="corner-ribbon top-left sticky red shadow bg-green-primary">
                         <span class="text absolute font-bold font-sans">
                             BEST SELLER
                         </span>
@@ -20,14 +20,14 @@
                     <table class="border border-blue-400 mt-8 md:mt-0 lg:mt-0">
                         <thead class="border">
                             <tr>
-                                <th class="bg-blue-400 flex flex-col  font-bold text-white">
+                                <th class="bg-blue-primary flex flex-col  font-bold text-white">
             
                                     <span class="text-2xl">
                                         {{item['package-name']}}
                                     </span>
                                     <strike>{{item['real-price']}}</strike>
                                     <p>{{item['discount-price']}}</p>
-                                    <span class="bg-blue-600 text-white py-2 px-4">
+                                    <span class="bg-blue-secondary-darken text-white py-2 px-4">
                                         <strong class="mr-2">{{item['UA']}}</strong>
                                 <span>Pengguna Terdaftar</span>
                                     </span>
@@ -70,7 +70,7 @@
 
                                             </div>
                                         </div>
-                                        <button class="btn btn-cta rounded-full bg-transparent border border-black mt-4 bg-blue-400 text-white border-none font-bold py-2">Pilih Sekarang</button>
+                                        <button class="btn btn-cta rounded-full bg-transparent border border-black mt-4 bg-blue-secondary-light text-white border-none font-bold py-2">Pilih Sekarang</button>
                                     </div>
             
                                 </td>
@@ -155,7 +155,9 @@
         
                                             </div>
                                         </div>
-                                        <button class="btn btn-cta rounded-full bg-transparent border border-black mt-4  font-bold py-2">Pilih Sekarang</button>
+                                        <button class="btn btn-cta rounded-full bg-transparent border border-black mt-4 font-bold py-2" :class="[
+                                            theme === 'light' ? '' : 'border border-white'
+                                        ]">Pilih Sekarang</button>
                                     </div>
             
                                 </td>
@@ -186,6 +188,7 @@ export default {
     name: 'PriceContent',
     computed: mapState({
         data: state => state.data,
+        theme: state => state.theme
     }),
 
 }

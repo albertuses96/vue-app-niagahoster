@@ -10,7 +10,7 @@
             <div class="explanation mb-8">
                 SuperMicro Intel Xeon 2-Cores Server dengan RAM 128GB dan teknologi LVE CloudLinux untuk stabilitas server Anda. Dilengkapi dengan SSD untuk kecepatan MYSQL dan caching, Apache load balancing berbasis LiteSpeed Technologies. CageFS security, Raid-10 protection dan autobackup untuk keamanan website PHP anda
             </div>
-            <button class="sm:w-full lg:w-64 bg-blue-500 rounded-full text-white font-bold py-2 px-4 mb-4">Pilih Hosting Anda</button>
+            <button class="sm:w-full lg:w-64 bg-blue-secondary-light rounded-full text-white font-bold py-2 px-4 mb-4">Pilih Hosting Anda</button>
         </div>
    
     </div>

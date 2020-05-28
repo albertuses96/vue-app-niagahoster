@@ -1,8 +1,8 @@
 <template>
-    <div class="footer py-8 px-8 bg-gray-900 container flex flex-col text-white">
+    <div class="footer py-8 px-8 bg-indigo-primary flex flex-col text-white">
         <div class="footer-nav lg:grid sm:flex lg:grid-cols-4 sm:flex-col gap-8">
             <div class="col">
-                <div class="title-footer-nav mb-4 font-bold text-gray-500">
+                <div class="title-footer-nav mb-4 font-bold text-indigo-secondary">
                     HUBUNGI KAMI
                 </div>
                 <div class="content flex flex-col">
@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div v-for="item in footerNav" :key="index" class="col">
-                <div class="title-footer-nav mb-4 font-bold text-gray-500">
+                <div class="title-footer-nav mb-4 font-bold text-indigo-secondary">
                     {{item.titleNav}}
                 </div>
                 <div v-for="list in item.listNav" class="content flex flex-col cursor-pointer">
@@ -23,7 +23,7 @@
 
     
             <div class="col">
-                <div class="title-footer-nav mb-4 font-bold text-gray-500">
+                <div class="title-footer-nav mb-4 font-bold text-indigo-secondary">
                     NEWSLETTER
                 </div>
                 <div class="content flex flex-col">
@@ -42,7 +42,7 @@
         </div>
     
         <div class="payment-list flex flex-col mt-4">
-            <div class="title mb-4">
+            <div class="title mb-4 font-bold text-indigo-secondary">
                 PEMBAYARAN
             </div>
             <div class="payment-list flex flex-row mb-4">

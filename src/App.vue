@@ -7,6 +7,5 @@
 <style lang="css">
   .app {
     width: 100%;
-    padding: 0px 2.5%;
   }
 </style>

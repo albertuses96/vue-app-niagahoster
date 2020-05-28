@@ -1,10 +1,10 @@
 <template>
-    <div class="suppoert-feature container py-4 px-4 flex flex-col justify-center items-center ">
+    <div class="suppoert-feature  py-4 px-4 flex flex-col justify-center items-center ">
         <div class="title text-2xl font-thin mb-4">
             Mendukung Penuh Framework Laravel
         </div>
         <div class="w-full main-content px-8 py-4 flex flex-col-reverse md:flex-row lg:flex-row">
-            <div class="content w-full flex flex-col mr-8">
+            <div class="content w-full flex flex-col">
                 <div class="notes mb-4">
                     Tak perlu menggunakan dedicated server ataupun VPS yang mahal. <br />
                     Layanan  PHP yang murah kami menudkung penuh framework favorit Anda.
@@ -37,7 +37,7 @@ export default {
     data() {
         return {
             featureList: [
-                'Laravel 1 klik dengan Softaculous Installer',
+                `Laravel <strong>1 klik<strong> dengan Softaculous Installer`,
                 'Mendukung ekstensi PHP MCrypt, phar, mbstring, json, dan fileinfo',
                 'Tersedia Composer dan SSH untuk menginstall packages pilihan Anda.'
             ]

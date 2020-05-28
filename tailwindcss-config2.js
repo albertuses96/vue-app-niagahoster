@@ -18,6 +18,8 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -72,6 +74,7 @@ module.exports = {
         700: '#2f855a',
         800: '#276749',
         900: '#22543d',
+        "primary": '#00b359'
       },
       teal: {
         100: '#e6fffa',
@@ -94,6 +97,9 @@ module.exports = {
         700: '#2b6cb0',
         800: '#2c5282',
         900: '#2a4365',
+        'primary': '#008fee',
+        'secondary-darken': '#007fde',
+        'secondary-light': '#008fee'
       },
       indigo: {
         100: '#ebf4ff',
@@ -105,6 +111,8 @@ module.exports = {
         700: '#4c51bf',
         800: '#434190',
         900: '#3c366b',
+        primary: '#303030',
+        secondary: '#898989'
       },
       purple: {
         100: '#faf5ff',

@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-app-bar flex flex-row items-center justify-between ">
+        <div class="main-app-bar flex flex-row items-center justify-between px-4">
             <div class="main-logo">
                 <img src="../assets/niagahoster-logo.png" alt="Logo" width="200px">
             </div>
@@ -52,12 +52,16 @@
 
 <script>
 import customIcon from 'vue-icon/lib/vue-feather.esm'
+import {mapState} from 'vuex'
 
 export default {
     name: 'AppBar',
     components: {
         customIcon,
     },
+    computed: mapState({
+        theme: state => state.theme
+    }),
     data() {
         return {
             navigationLink: [{

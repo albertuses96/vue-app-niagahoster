@@ -1,5 +1,7 @@
 <template>
-  <div class="app flex flex-col w-full">
+  <div class="app flex flex-col w-full" :class="[
+    theme === 'light' ? '' : 'bg-indigo-primary text-white'
+  ]">
     <AppBar />
     <MainContent />
     <SecondaryContent />
@@ -34,7 +36,7 @@ import BannerCTA from '@/components/BannerCTA.vue'
 import SocialMediaBanner from '@/components/SocialMediaBanner.vue'
 import TechnicalSupportBanner from '@/components/TechnicalSupportBanner.vue'
 import Footer from '@/components/Footer.vue'
-import {mapActions} from 'vuex'
+import {mapActions, mapState} from 'vuex'
 
 
 export default {
@@ -56,9 +58,9 @@ export default {
     TechnicalSupportBanner,
     Footer
   },
-  computed: {
-    
-  },
+  computed: mapState({
+    theme: state => state.theme
+  }),
   data() {
     return {
       employees: [

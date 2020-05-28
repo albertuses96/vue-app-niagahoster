@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-8 px-4 sm:flex md:flex sm:flex-col-reverse md:flex-col-reverse lg:grid lg:grid-cols-2">
+    <div class="py-8 px-16 sm:flex md:flex sm:flex-col-reverse md:flex-col-reverse lg:grid lg:grid-cols-2">
         <div class="content w-full flex flex-1 mr-8 flex-col">
             <h1 class="text-4xl font-bold">PHP Hosting</h1>
             <h2 class="font-sans text-2xl font-hairline mb-2" >Cepat, handal penuh dengan <br /> modul PHP yang Anda butuhkan</h2>
