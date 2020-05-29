@@ -111,7 +111,6 @@ export default {
         }
     },
     mounted() {
-        console.log(this.packageList.length/4*2)
     },
 }
 </script>

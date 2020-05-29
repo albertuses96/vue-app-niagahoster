@@ -15,13 +15,15 @@
                         <div class="check-logo mr-4 flex w-8 justify-center items-center">
                             <img src="../assets/correct.svg" alt="logo" width="20px">
                         </div>
-                        <div class="feature w-full">{{item}}</span></div>
+                        {{item}}
                     </div>
                    
                 
                 </div>
                 <div class="notes mb-4">Nb: Composer dan SSH hanya tersedia pada paket Personal dan Bisnis </div>
-                <button class="btn-cta rounded-full bg-blue-500 py-2 px-2 font-bold text-white">Pilih Hosting Anda</button>
+                <button class="btn-cta rounded-full bg-blue-secondary-light py-2 px-2 font-bold text-white" :class="[
+                    theme === 'light' ? '' : 'border border-white'
+                ]">Pilih Hosting Anda</button>
             </div>
             <div class="logo mb-4 w-full flex justify-center ">
                 <img src="../assets/laravel.svg" alt="Logo" width="300px">
@@ -32,17 +34,22 @@
 </template>
 
 <script>
+import {mapState} from 'vuex'
+
 export default {
     name: 'SupportFeature',
     data() {
         return {
             featureList: [
-                `Laravel <strong>1 klik<strong> dengan Softaculous Installer`,
+                `Laravel 1 klik dengan Softaculous Installer<div>`,
                 'Mendukung ekstensi PHP MCrypt, phar, mbstring, json, dan fileinfo',
                 'Tersedia Composer dan SSH untuk menginstall packages pilihan Anda.'
             ]
         }
-    }
+    },
+    computed: mapState({
+      theme: state => state.theme  
+    }),
 }
 </script>
 

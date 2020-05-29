@@ -36,6 +36,7 @@ import Footer from '@/components/Footer.vue'
 import {mapActions, mapState} from 'vuex'
 
 
+
 export default {
   name: 'Home',
   components: {

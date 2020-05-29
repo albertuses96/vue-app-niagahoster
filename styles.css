@@ -1,3 +1,34 @@
+@font-face {
+    font-family: Monserrat;
+    src: url("./src/assets/fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url("./src/assets/fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url("./src/assets/fonts/montserrat/Montserrat-Black.otf") format("opentype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url("./src/assets/fonts/montserrat/Montserrat-Black.otf") format("opentype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url("./src/assets/fonts/montserrat/Montserrat-Light.otf") format("opentype");
+    font-weight: 300
+}
+
+
 @tailwind base;
 
 @tailwind components;

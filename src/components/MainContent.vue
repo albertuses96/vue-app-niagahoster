@@ -5,8 +5,8 @@
             <h2 class="font-sans text-2xl font-hairline mb-2" >Cepat, handal penuh dengan <br /> modul PHP yang Anda butuhkan</h2>
             <div>
                 <ul>
-                    <li class="flex flex-row mb-2" v-for="benefit in benefits" :key="index">
-                        <div class="check-logo mr-2">
+                    <li class="flex flex-row mb-2 bg-blue" v-for="benefit in benefits" :key="index">
+                        <div class="check-logo mr-2 w-8">
                             <img src="../assets/correct.svg" alt="logo" width="20px">
                         </div>
                         <span>{{benefit}}</span>
